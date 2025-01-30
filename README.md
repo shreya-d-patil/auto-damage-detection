@@ -37,18 +37,6 @@ vehicle_damage_assessment/
 
 ---
 
-## 🚀 **Installation & Setup**
-### 1️⃣ **Clone the Repository**  
-git clone https://github.com/your-username/your-repo.git cd your-repo
-
-### 2️⃣ **Create a Virtual Environment**
-python -m venv env source env/bin/activate # For Linux/Mac env\Scripts\activate # For Windows
-
-### 3️⃣ **Install Dependencies**
-pip install -r requirements.txt
-
-### 4️⃣ **Run the Application**
-streamlit run app.py
 
 ---
 
