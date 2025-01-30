@@ -1,83 +1,23 @@
-Automated Comprehensive Vehicle Damage Assessment System
+# **Automated Vehicle Damage Assessment**
 
-Overview
+## **Project Overview**
+This project automates the process of vehicle damage assessment using machine learning and computer vision. It takes vehicle images as input and identifies damaged areas, helping insurance companies and car owners assess repair costs efficiently.
 
-This project aims to automate vehicle damage detection, assessment, and cost estimation using computer vision and machine learning techniques. The system leverages YOLOv8 for real-time damage detection and a machine learning-based approach for severity analysis and cost estimation.
+## **Features**
+- **Image Upload:** Users can upload vehicle images for analysis.  
+- **Damage Detection:** Uses deep learning models to detect and classify damaged areas.  
+- **Severity Prediction:** Estimates the severity of damage based on trained AI models.  
+- **User-Friendly Interface:** Built with Streamlit for an interactive experience.  
 
-Features
+## **Technologies Used**
+- **Programming Language:** Python  
+- **Framework:** Streamlit  
+- **Machine Learning:** TensorFlow, OpenCV  
+- **Dataset:** Custom dataset of vehicle images  
+- **Deployment:** Hosted using Streamlit Sharing  
 
-Real-time Damage Detection: Uses YOLOv8 for object detection.
-
-Damage Severity Assessment: Determines the extent of the damage.
-
-Cost Estimation: Calculates repair and reselling costs.
-
-User-Friendly Interface: Implemented using Streamlit.
-
-Technologies Used
-
-Programming Language: Python
-
-Machine Learning Frameworks: TensorFlow, PyTorch
-
-Computer Vision: OpenCV, YOLOv8
-
-Web Application: Streamlit
-
-Database: SQLite (for storing assessment data)
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
-
-Create and activate a virtual environment:
-
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the Streamlit app:
-
-streamlit run app.py
-
-Usage
-
-Upload an image of a damaged vehicle.
-
-The model detects and highlights damages.
-
-The system analyzes severity and estimates repair costs.
-
-View the damage report with cost details.
-
-Output Examples
-
-
-
-Dataset
-
-A collection of vehicle images with labeled damages for training the YOLOv8 model.
-
-Data includes various car models and multiple types of damages (scratches, dents, broken parts, etc.).
-
-Future Enhancements
-
-Integration with insurance company APIs.
-
-Support for video-based damage assessment.
-
-Advanced cost estimation using AI models.
-
-Contributors
-
-Shreya D Patil - dpatilshreya@gmail.com
-
-License
-
-This project is licensed under the MIT License.
+## **Installation & Setup**
+1. **Clone the repository:**  
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
